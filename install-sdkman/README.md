@@ -2,7 +2,7 @@
 sudo su
 yum -y remove java*
 export SDKMAN_DIR="/usr/local/sdkman" && curl -s "https://get.sdkman.io" | bash
-chmod -R 777 /usr/local/sdkman/var
+chmod -R 777 /usr/local/sdkman
 ```
 
 Edit file /home/user/.bashrc at the end:
